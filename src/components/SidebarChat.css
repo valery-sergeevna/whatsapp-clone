@@ -1,0 +1,23 @@
+.sidebarChat{
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all .2s ease;
+    border-bottom:2px solid #f6f6f6;
+}
+.sidebarChat:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.sidebarChat__info{
+    margin-left: 15px;
+}
+.name{
+    font-size: 17px;
+    font-weight: 600;
+}
+.message{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+}
